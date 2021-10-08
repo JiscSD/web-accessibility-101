@@ -5,17 +5,17 @@ In this repository you will find some information on web accessibility, split in
 ---
 ## Contents:
 1. [Colour Contrast](1-colour-contrast/README.md)
-2. Page Structure and Semantic HTML
-3. ARIA attributes
-4. Visual Content
-5. Keyboard Only
-6. Forms 
-7. Tables
-8. Common Accessibility issues with Material UI component library
+2. [Page Structure and Semantic HTML](2-page-structure/README.md)
+3. [ARIA attributes](3-aria/README.md)
+4. [Visual Content](4-visual-content/README.md)
+5. [Keyboard Only](5-keyboard-only/README.md)
+6. [Forms](6-forms/README.md)
+7. [Tables](7-tables/README.md)
+8. [Common Accessibility issues with Material UI component library](8-MUI/README.md)
 9. Testing resources
-    * CI/CD Tools
-    * Automated Testing
-    * Manual Testing
+    * [CI/CD Tools](9-testing-resources/README.md#CI/CD)
+    * [Automated Testing](9-testing-resources/README.md#Automated)
+    * [Manual Testing](9-testing-resources/README.md#Manual)
 
 ---
 
