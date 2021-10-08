@@ -4,7 +4,7 @@ In this repository you will find some information on web accessibility, split in
 
 ---
 ## Contents:
-1. Colour Contrast
+1. [Colour Contrast](1-colour-contrast/README.md)
 2. Page Structure and Semantic HTML
 3. ARIA attributes
 4. Visual Content
