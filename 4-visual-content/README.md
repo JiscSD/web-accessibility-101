@@ -1,0 +1,3 @@
+images
+icons
+video etc.
