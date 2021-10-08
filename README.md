@@ -12,7 +12,7 @@ In this repository you will find some information on web accessibility, split in
 6. [Forms](6-forms/README.md)
 7. [Tables](7-tables/README.md)
 8. [Common Accessibility issues with Material UI component library](8-MUI/README.md)
-9. Testing resources
+9. [Testing resources](9-testing-resources/README.md)
     * [CI/CD Tools](9-testing-resources/README.md#CI/CD)
     * [Automated Testing](9-testing-resources/README.md#Automated)
     * [Manual Testing](9-testing-resources/README.md#Manual)
