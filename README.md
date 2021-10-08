@@ -36,10 +36,10 @@ In this repository you will find some information on web accessibility, split in
 ---
 
 ### Bibliography/Useful Resources:
-* [WCAG Quick Reference Guide] (https://www.w3.org/WAI/WCAG21/quickref/)
-* [Web Accessibility in Mind] (https://webaim.org/)
-* [Google Developers Accessibility Guide] (https://developers.google.com/web/fundamentals/accessibility)
-* [Mozilla Developers Accessibility Guide] (https://developer.mozilla.org/en-US/docs/Web/Accessibility)
-* [React Accessibility Docs] (https://reactjs.org/docs/accessibility.html)
-* [Web Accessibility for Developers (WUHCAG) Checklist] (https://www.wuhcag.com/wcag-checklist/)
-* [a11y Project checklist] (https://www.a11yproject.com/checklist/)
+* (WCAG Quick Reference Guide) [https://www.w3.org/WAI/WCAG21/quickref/]
+* (Web Accessibility in Mind) [https://webaim.org/]
+* (Google Developers Accessibility Guide) [https://developers.google.com/web/fundamentals/accessibility]
+* (Mozilla Developers Accessibility Guide) [https://developer.mozilla.org/en-US/docs/Web/Accessibility]
+* (React Accessibility Docs) [https://reactjs.org/docs/accessibility.html]
+* (Web Accessibility for Developers WUHCAG Checklist) [https://www.wuhcag.com/wcag-checklist/]
+* (a11y Project checklist) [https://www.a11yproject.com/checklist/]
