@@ -1,6 +1,7 @@
 # web-accessibility-101 :sparkles:
 ## To support developers using React in building accessible software under WCAG 2.1 AA guidelines.
-In this repository you will find some information on web accessibility, split into sections and with code examples. Try and complete the quick fire checklist below to see whether there is any that are missing from your product. 
+In this repository you will find some information on web accessibility, split into sections and with code examples.  
+Try and complete the quick fire checklist below to see whether there are any missing from your product. 
 
 ---
 ## Contents:
@@ -21,9 +22,9 @@ In this repository you will find some information on web accessibility, split in
 
 ## Quick fire checklist:
 - [ ] Is the lang attribute set to the correct language? 
-- [ ] Does the design have accessible colours? If not, have the colours been checked? (1)
+- [ ] Does the design have accessible colours? If not, have the colours been checked? (1-colour-contrast)
 - [ ] Is there only one H1 Heading present on each page? (2)
-- [ ] Are the Heading tags in a logical order matching the structure? §2)
+- [ ] Are the Heading tags in a logical order matching the structure? (2)
 - [ ] Is semantic HTML used where possible? (2)
 - [ ] Are ARIA attributes used if semantic HTML is not possible? (3)
 - [ ] Do all images have descriptive alt text? (4)
