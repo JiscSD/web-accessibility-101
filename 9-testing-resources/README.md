@@ -55,7 +55,8 @@ The axe Dev Tools extension, once installed, can be accessed from Chrome Dev Too
 Jisc have several websites checked by the paid for version of SiteImprove. This can flag manual issues and then provide guidance on how to fix the issues.  
 
 - [WebAIM Colour Contrast Checker](https://webaim.org/resources/contrastchecker/)  
-Check the background and foreground colours on your site to make sure they pass WCAG standards.
+Check the background and foreground colours on your site to make sure they pass WCAG standards. This tool also functions as a basic API.
+
 - [Microsoft Accessibility Insights for Web](https://accessibilityinsights.io/docs/en/web/overview/)  
 :gem: browser extension  
 This will guide you through a manual accessibility assessment. [This guidance](https://accessibility-manual.dwp.gov.uk/best-practice/manual-testing-using-tools/#accessibility-insights-assessment-extension) from the government takes you through using Accessibility Insights.
