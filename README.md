@@ -1,7 +1,7 @@
 # web-accessibility-101 :sparkles:
 ## To support developers using React in building accessible software under WCAG 2.1 AA guidelines.
 In this repository you will find some information on web accessibility, split into sections and with code examples.  
-Try and complete the quick fire checklist below to see whether there are any missing from your product. 
+Try and complete the [quick fire checklist](#quick-fire-checklist) below to see whether there are any missing from your product. 
 
 ---
 ## Contents:
@@ -22,17 +22,24 @@ Try and complete the quick fire checklist below to see whether there are any mis
 
 ## Quick fire checklist:
 - [ ] Is the lang attribute set to the correct language? 
-- [ ] Does the design have accessible colours? If not, have the colours been checked? (1-colour-contrast)
-- [ ] Is there only one H1 Heading present on each page? (2)
-- [ ] Are the Heading tags in a logical order matching the structure? (2)
-- [ ] Is semantic HTML used where possible? (2)
-- [ ] Are ARIA attributes used if semantic HTML is not possible? (3)
-- [ ] Do all images have descriptive alt text? (4)
-- [ ] Does any visual/audio content have the option to pause? (4)
-- [ ] If you have a navigation header, is a 'skip to main content' link present? (5)
-- [ ] Are interactive attributes focusable, with obvious visible styling on focus? (5)
-
+- [ ] Does the design have accessible colours? If not, have the colours been checked? [1-colour-contrast](1-colour-contrast/README.md)
+- [ ] Is there only one H1 Heading present on each page? [2-page-structure](2-page-structure/README.md)
+- [ ] Are the Heading tags in a logical order matching the structure? [2-page-structure](2-page-structure/README.md)
+- [ ] Is semantic HTML used where possible? [2-page-structure](2-page-structure/README.md)
+- [ ] Are ARIA attributes used if semantic HTML is not possible? [3-aria](3-aria/README.md)
+- [ ] Do all images have descriptive alt text? [4-visual-content](4-visual-content/README.md)
+- [ ] Does any visual/audio content have the option to pause? [4-visual-content](4-visual-content/README.md)
+- [ ] If you have a navigation header, is a 'skip to main content' link present? [5-keyboard-only](5-keyboard-only/README.md)
+- [ ] Are interactive attributes focusable, with obvious visible styling on focus? [5-keyboard-only](5-keyboard-only/README.md)
 - [ ] Does your codebase have documentation in a README and comments where necessary?
+
+---
+
+### Contributing:  
+Want to contribute to this repository? Please do!  
+You can do this by...  
+1. Creating an issue - if it is a minor addition or if it is a complicated accessibility issue that everyone can input into.   
+2. Opening a Pull Request - if there is a particular area you would like to add a chunk of information or some examples to.  
 
 ---
 

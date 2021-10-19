@@ -13,7 +13,7 @@
 - Chrome and Firefox Accessibility Inspector tab in DevTools
 
 - [Lighthouse](https://developers.google.com/web/tools/lighthouse)  
-You can run Lighthouse in Chrome Dev Tools without downloading an extension. Just click on thr 'Lighthouse' tab. You can generate an Accessibility report for Mobile and for Desktop. 
+You can run Lighthouse in Chrome Dev Tools without downloading an extension. Just click on the 'Lighthouse' tab. You can generate an Accessibility report for Mobile and for Desktop. 
 
 - [axe Dev Tools](https://www.deque.com/axe/)  
 :gem: browser extension  
