@@ -16,6 +16,14 @@ Sometimes we break HTML semantics when we add `<div>` elements to our JSX to mak
 
 If you want to check if your HTML is semantic, go to the [W3 Validator](https://validator.w3.org/#validate_by_input).
 
+### When should I use `<div>`, `<section>` or `<article>`?
+
+The `<section>` element represents a generic section of a documentation. Sections should always have a heading, with very few exceptions.
+
+Mozilla [comments on the possible exceptions](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section#using_a_section_without_a_heading) as being:
+
+> Circumstances where you might see `<section>` used without a heading are typically found in web application/UI sections rather than in traditional document structures. In a document, it doesn't really make any sense to have a separate section of content without a heading to describe its contents. Such headings are useful for all readers, but particularly useful for users of assistive technologies like screenreaders, and they are also good for SEO.
+
 ### Table
 
 A table should only contain the following tags [*](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table): 
