@@ -1,7 +1,3 @@
-structure, semantic html, landmarks
-
-Notes: div vs section
-
 ## What is Semantic HTML?
 When you use HTML tags 'semantically', you use the word in a way that is properly aligned with the meaning of the word. The tag will have meaning in relation to the information inside it.  
 For example, `<form>`, `<table>` and `<nav>` are semantic elements.  
@@ -67,3 +63,11 @@ An example of a semantic table would be:
 ```
 
 Note that `<td>` and `<th>` can contain any [flow content](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#flow_content).
+
+### Nav
+
+### Footer
+
+### Aside
+
+### Header
