@@ -18,6 +18,8 @@ If you want to check if your HTML is semantic, go to the [W3 Validator](https://
 
 ### When should I use `<div>`, `<section>` or `<article>`?
 
+The `<div>` element is a generic container for [flow content](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#flow_content) and has no effect on the content/layout unless styled to do so.
+
 The `<section>` element represents a generic section of a documentation. Sections should always have a heading, with very few exceptions.
 
 Mozilla [comments on the possible exceptions](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section#using_a_section_without_a_heading) as being:
