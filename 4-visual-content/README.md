@@ -13,7 +13,7 @@ When working with images, whether that be a .png, .jpg, .svg, .ico and so on, yo
 The below example is one of the best setups we can do for images, not only to make it more accessible to users, but also to the browser.
 
 ```html
-<figure>
+<figure aria-label="Description of the overall image" role="presentation">
     <picture>
         <source
             srcset="image-big.png"
@@ -44,7 +44,8 @@ As you can see from the above, there is quite a lot more going on than a simple 
 I will try & break down what is happening:
 
 ```html
-<figure>
+<!-- Accepts a aria label & role -->
+<figure aria-label="" role="">
     <!-- Media content here -->
     <figcaption><!-- Media caption content --></figcaption>
 </figure>
@@ -60,7 +61,7 @@ Not only will screen readers pick up the alt & long description, but also will n
 <picture>
     <!-- Different types of picture source -->
     <source srcset="" type="" media="" />
-    <!--  -->
+    <!-- A fallback image -->
     <img src="" alt="" longdesc="" />
 </picture>
 ```
@@ -72,3 +73,12 @@ Not only will screen readers pick up the alt & long description, but also will n
 ```html
 
 ```
+
+### Links
+
+-   [Figure](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure)
+-   [Captions](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption)
+-   [Image](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML)
+-   [Picture](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture)
+-   [Video](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video)
+-   [Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/source)
