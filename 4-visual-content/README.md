@@ -66,6 +66,50 @@ Not only will screen readers pick up the alt & long description, but also will n
 </picture>
 ```
 
+The above picture element is similar to the `figure` element, being that is block level, so should have at least one child node.
+The picture elements purpose is to allow the develop to have much more precise control over the media they want to display.
+
+When thinking about accessability, we often just think of screen readers, and although that is a huge part of it, we also have to considor the users device, their viewport and so on. This picture element allows us to put in an unlimited amount of `source` elements. The purpose of the source element is to provide a source set, i.e a set of different paths depending on a condition.
+
+The most common use for this is window size or pixel density. For the purposes of this, will focus more on window size, although more informaiton about be found about pixel density [here](https://css-tricks.com/snippets/css/retina-display-media-query/).
+
+Looking at the below, I have a `source` element with three atrributes:
+
+-   srcset - A list of one or more strings separated by commas indicating a set of possible images represented by the source for the browser to use.
+-   type - The MIME media type of the resource, optionally with a codecs parameter.
+-   media - Media query of the resource's intended media.
+
+```html
+<source srcset="image-big.png" type="image/png" media="(min-width:1920px)" />
+```
+
+More information on the above found [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/source)
+
+Remember that the picture element can take many of these source elements, so the user is served exatly the media you want them to see intended for their device, window size and more.
+
+```html
+<!-- 
+    We assume the user is on a desktop,
+    there for we can serve them the biggest, best quality image
+-->
+<source srcset="image-big.png" type="image/png" media="(min-width:1920px)" />
+
+<!-- 
+    We assume the user is on a desktop or laptop,
+    there for we can serve them a media sized image as their connection may not be strong
+-->
+<source srcset="image-med.png" type="image/png" media="(min-width:1200px)" />
+
+<!-- 
+    We assume the user is on a tablet or mobile device,
+    there for we serve them a cut down image where quality isn't as important
+-->
+<source srcset="image-small.png" type="image/png" media="(min-width:700px)" />
+```
+
+Finally, you will notice there is still an `img` element. This will only be used a fall back if none of the above conditions are met.
+Generally an edge case catch all. But be sure to supply the needed alt & long description if needed.
+
 &nbsp;
 
 ### Videos
