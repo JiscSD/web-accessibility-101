@@ -67,7 +67,7 @@ Not only will screen readers pick up the alt & long description, but also will n
 ```
 
 The above picture element is similar to the `figure` element, being that is block level, so should have at least one child node.
-The picture elements purpose is to allow the develop to have much more precise control over the media they want to display.
+The picture elements purpose is to allow the developer to have much more precise control over the media they want to display.
 
 When thinking about accessability, we often just think of screen readers, and although that is a huge part of it, we also have to considor the users device, their viewport and so on. This picture element allows us to put in an unlimited amount of `source` elements. The purpose of the source element is to provide a source set, i.e a set of different paths depending on a condition.
 
