@@ -52,7 +52,7 @@ I will try & break down what is happening:
 ```
 
 The above element is a figure, which is a block level element, i.e it **should** contain other block or inline block level elements.
-Generally the figure element is seen as a simply was to add a semantic caption [(example here)](https://en.wikibooks.org/wiki/LaTeX/Floats,_Figures_and_Captions#/media/File:Latex_caption_example.png).
+Generally the figure element is seen as a simple way to add a semantic caption [(example here)](https://en.wikibooks.org/wiki/LaTeX/Floats,_Figures_and_Captions#/media/File:Latex_caption_example.png).
 
 However, try to think of other ways that this caption could be used for the users benefit, possibly a hovered tool tip?
 Not only will screen readers pick up the alt & long description, but also will notice that this is a figure & here is it's caption, giving more context to the content over a simple one line description of what the image is.
