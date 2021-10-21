@@ -10,7 +10,7 @@ When working with images, whether that be a .png, .jpg, .svg, .ico and so on, yo
 <img src="my-image.png" alt="This is my image" />
 ```
 
-The below example is one of the best setups we can do for images, not only to make it more accessible to users, but also to the browser it's self.
+The below example is one of the best setups we can do for images, not only to make it more accessible to users, but also to the browser.
 
 ```html
 <figure>
