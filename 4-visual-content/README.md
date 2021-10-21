@@ -114,14 +114,33 @@ Generally an edge case catch all. But be sure to supply the needed alt & long de
 
 ### Videos
 
+Video content is a very similar to image media, however can be a litle more tricky as different browsers render & interact with video content in their own way, very annoying. Before looking into the semantics of video content, it is important to first think about what you are trying to do when using video. Has the client/PO asked for a video to be shown simply as backing content? Or is this video there for the user to play, pause, full screen, adjust volume and so on. There are a few guided rules when it comes to this:
+
+1. Does the client want the video to automatically start playing when the user hits the page?
+    - If so, keep in mind that due to the old school pop-ups, **most** browsers will enforce a muted video if autoplay is enabled.
+    - Autoplay is generally something to avoid if possible.
+2. Does the client want this to be used as a background content?
+    - Considor using a .gif instead that is produced from the original video content.
+3. Is the intention for this video to be more commonly viewed on a mobile device or a desktop device?
+    - Video content can be very heavy in terms of its file size, video formats as very important when thinking about the user
+4. Does the video content **have** to be hosted locally with the site, or can it be delegated off to a third party (S3, YouTube, Vimeo)
+    - Using video content off-site can be both good & bad, so if the file is else where, think about using a service which it's intention is to provide a better solution.
+
 ```html
+<!-- 
+    Just like the img & picture elements, we can wrap our video content in a
+    figure wich allows more details atrributes
+-->
 <figure aria-label="" role="">
-    <source src="/media/cc0-videos/flower.webm" type="video/webm" />
-    <source src="/media/cc0-videos/flower.mp4" type="video/mp4" />
+    <!-- -->
+    <video controls width="250">
+        <source src="/media/cc0-videos/flower.webm" type="video/webm" />
+        <source src="/media/cc0-videos/flower.mp4" type="video/mp4" />
+    </video>
+    <!-- Fall back text if the users browser can not render either of the above media types -->
     Sorry, your browser doesn't support embedded videos.
     <figcaption>This is my video</figcaption>
 </figure>
-<video controls width="250"></video>
 ```
 
 ### Links
