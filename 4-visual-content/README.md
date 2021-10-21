@@ -132,8 +132,19 @@ Video content is a very similar to image media, however can be a litle more tric
     figure wich allows more details atrributes
 -->
 <figure aria-label="" role="">
-    <!-- -->
+    <!--
+        The video element has a large amount of possible attributes ranging from
+        default frames to picture in pucture mode.
+        Please see the below video link to see what each of these attributes provide
+    -->
     <video controls width="250">
+        <!--
+            Unlike the picture element, the source elements here do not use media query conditionals.
+            The order of render is top to bottom, i.e the webm (prefered) video will first try to
+            render. If the browser does not support webm, then the next source will try.
+            Generally mp4 if used as the fall back as most browsers support it, however is usually 
+            the heaviest format. Also There are complications with Safari.
+        -->
         <source src="/media/cc0-videos/flower.webm" type="video/webm" />
         <source src="/media/cc0-videos/flower.mp4" type="video/mp4" />
     </video>
