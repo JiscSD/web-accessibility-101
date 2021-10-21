@@ -4,7 +4,7 @@ Working with media content on the web can be very difficult in general, but we h
 
 ### Images
 
-When working with images, whether that be a .png, .jpg, .svg, .ico and so on, you likely / it is common to simply throw in an `img` element, set the source & some back up alt text and call it a day. This approach is _generally_ ok, there is a whole lot more we can do.
+When working with images, whether that be a .png, .jpg, .svg, .ico and so on, you likely / it is common to simply throw in an `img` element, set the source & some back up alt text and call it a day. This approach is _generally_ ok, although there is a whole lot more we can do for the user.
 
 ```html
 <img src="my-image.png" alt="This is my image" />
@@ -115,7 +115,13 @@ Generally an edge case catch all. But be sure to supply the needed alt & long de
 ### Videos
 
 ```html
-
+<figure aria-label="" role="">
+    <source src="/media/cc0-videos/flower.webm" type="video/webm" />
+    <source src="/media/cc0-videos/flower.mp4" type="video/mp4" />
+    Sorry, your browser doesn't support embedded videos.
+    <figcaption>This is my video</figcaption>
+</figure>
+<video controls width="250"></video>
 ```
 
 ### Links
