@@ -2,8 +2,6 @@
 
 Working with media content on the web can be very difficult in general, but we have great set of tools to help make that content more accessible. The below will go over the two most common types of media content, images & video and what we can do to enhace them.
 
-&nbsp;
-
 ### Images
 
 When working with images, whether that be a .png, .jpg, .svg, .ico and so on, you likely / it is common to simply throw in an `img` element, set the source & some back up alt text and call it a day. This approach is _generally_ ok, there is a whole lot more we can do.
@@ -53,7 +51,7 @@ I will try & break down what is happening:
 ```
 
 The above element is a figure, which is a block level element, i.e it **should** contain other block or inline block level elements.
-Generally the figure element is see as a way to simply as a semantic caption [(example here)Duck Duck Go](https://en.wikibooks.org/wiki/LaTeX/Floats,_Figures_and_Captions#/media/File:Latex_caption_example.png).
+Generally the figure element is see as a way to simply as a semantic caption [(example here)](https://en.wikibooks.org/wiki/LaTeX/Floats,_Figures_and_Captions#/media/File:Latex_caption_example.png).
 
 However, try to think of other ways that this caption could be used for the users benefit, possibly a hovered tool tip?
 Not only will screen readers pick up the alt & long description, but also will notice that this is a figure & here is it's caption, giving more context to the content over a simple one line description of what the image is.
