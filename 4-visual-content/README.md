@@ -71,7 +71,7 @@ The picture elements purpose is to allow the develop to have much more precise c
 
 When thinking about accessability, we often just think of screen readers, and although that is a huge part of it, we also have to considor the users device, their viewport and so on. This picture element allows us to put in an unlimited amount of `source` elements. The purpose of the source element is to provide a source set, i.e a set of different paths depending on a condition.
 
-The most common use for this is window size or pixel density. For the purposes of this, will focus more on window size, although more informaiton about be found about pixel density [here](https://css-tricks.com/snippets/css/retina-display-media-query/).
+The most common use for this is window size or pixel density. For the purposes of this, will focus more on window size, although more informaiton about be found about pixel density [here](https://css-tricks.com/snippets/css/retina-display-media-query/). - Very useful if your intended user base use high resolution screens, think about Mac retina screens.
 
 Looking at the below, I have a `source` element with three atrributes:
 
@@ -96,7 +96,7 @@ Remember that the picture element can take many of these source elements, so the
 
 <!-- 
     We assume the user is on a desktop or laptop,
-    there for we can serve them a media sized image as their connection may not be strong
+    there for we can serve them a medium sized image as their connection may not be strong
 -->
 <source srcset="image-med.png" type="image/png" media="(min-width:1200px)" />
 
