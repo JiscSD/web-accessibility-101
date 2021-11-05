@@ -26,7 +26,7 @@ Properties describe what an element is, and are less likely to change once set. 
 
 ---
 
-## "No ARIA is better than bad ARIA"
+## Principles
 
 Poorly implemented ARIA can be detrimental to assistive technology users. W3C specify two key principles to help developers:
 
@@ -67,6 +67,8 @@ Conversely, when used correctly ARIA can provide essential context to a componen
 
 You should therefore avoid overriding default roles or adding redundant roles, and be cautious of potential side effects.
 
+---
+
 ## Device support
 
 As you would expect from any web technology, device or software support can't be considered to be universal. Different operating systems, browsers, and even versions of the assistive technologies themselves can contribute to partial or complete lack of support.
@@ -74,6 +76,8 @@ As you would expect from any web technology, device or software support can't be
 For this reason, while emulated/automated testing is beneficial at a development level, it's important to test ARIA with actual assistive technology before release.
 
 **Useful resource:** [a11support.io](https://a11ysupport.io/) allows you to search by ARIA attribute or HTML element and see support across different assistive technologies and browsers.
+
+---
 
 ## Some useful attributes
 
