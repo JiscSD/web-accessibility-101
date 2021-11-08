@@ -2,6 +2,8 @@
 
 Colour and contrast use is vital to accessibility. All users, including those with visual disabilities must be able to percieve content on the web page. The official guidelines for WCAG 2.1 AA can quickly become quite confusing and overwhelming. This readme aims to simplify and easily explain the standards we are required to meet.
 
+In summary, It is better to have a website that is accessible to all users, than aesthetically pleasing to a subset of users but unaccessible to others due to colour and contrast choices.
+
 # Colours
 
 There are multiple ways to define colours, ordinarily at Jisc we tend to use the "hexadecimal" format. For example, #E85E12. Where the red/green/blue values are made up of a combination of 6 numbers or letters. This is probably the most common format used across the web. Other formats include rgb and hsl.
@@ -24,7 +26,7 @@ By definition in WCAG 2:
 
 > Contrast is a measure of the difference in perceived "luminance" or brightness between two colours (the phrase "colour contrast" is never used). This brightness difference is expressed as a ratio ranging from 1:1 (e.g. white on white) to 21:1 (e.g., black on a white).
 
-When designing and building our web pages, we need to be concious about colour and background choices. For example, we wouldn't place white text and a light grey background as it's obvious this is going to result in a bad contrast ratio. That being said, it's surprising how many websites still fail when it comes to accessible contrast ratios. Still, many designers and developers are in the mindest that if the contrast is fine for themselves, it would be fine for someone else, which clearly isn't the case.
+When designing and building our web pages, we need to be concious about colour and background choices. For example, we wouldn't place white text on a light grey background as it's obvious this is going to result in a bad contrast ratio. That being said, it's surprising how many websites still fail when it comes to accessible contrast ratios. Still, many designers and developers are in the mindest that if the contrast is fine for themselves, it would be fine for someone else, which clearly isn't the case.
 
 The minimum requirement we need to adhere to has a contrast ratio of at least 4.5:1, except for the following:
 
