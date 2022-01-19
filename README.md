@@ -34,7 +34,7 @@ Try and complete the [quick fire checklist](#quick-fire-checklist) below to see 
 
 -   [ ] Does the design have accessible colours? If not, have the colours been checked?
 -   [ ] Can you still navigate your site if it was in black and white?  
-         ==If no - read through [1-colour-contrast](1-colour/colour.md)==
+         **If no - read through the [colour](1-colour/colour.md) section.**
 
 ---
 
@@ -42,33 +42,33 @@ Try and complete the [quick fire checklist](#quick-fire-checklist) below to see 
 -   [ ] Is there only one < h1 > heading present on each page?
 -   [ ] Are the Heading tags in a logical order matching the structure?
 -   [ ] Is semantic HTML used where possible?  
-         ==If no, read through [2-page-structure](2-page-structure/page-structure.md)==
+         **If no, read through the [page-structure](2-page-structure/page-structure.md) section.**
 
 ---
 
 -   [ ] Are ARIA attributes used if semantic HTML is not possible?  
-         ==If no, read through [3-aria](3-aria/aria.md)==
+         **If no, read through the [aria](3-aria/aria.md) section.**
 
 ---
 
 -   [ ] Do all images have descriptive alt text?
 -   [ ] Does any visual/audio content have the option to pause?
 -   [ ] Can you resize your website to 200% and still use it?  
-         ==If no, read through [4-visual-content](4-visual-content/visual-content.md)==
+         **If no, read through the [visual-content](4-visual-content/visual-content.md) section.**
 
 ---
 
 -   [ ] If you have a navigation header, is a 'skip to main content' link present?
 -   [ ] Are interactive attributes focusable, with obvious visible styling on focus?
 -   [ ] Can you tab through your website in a logical order without using your mouse?  
-         ==If no, read through [5-keyboard-only](5-keyboard-only/keyboard-only.md)==
+         **If no, read through the [keyboard-only](5-keyboard-only/keyboard-only.md) section.**
 
 ---
 
 -   [ ] Do your forms use clear labels and alternative text if needed?
 -   [ ] Do your forms provide guidance to the user upon error?
 -   [ ] Do all of your input fields have a purpose specified? e.g. < input type="email" >  
-         ==If no, read through [6-forms](6-forms/forms.md)==
+         **If no, read through the [forms](6-forms/forms.md) section.**
 
 ---
 
