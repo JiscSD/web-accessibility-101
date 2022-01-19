@@ -16,6 +16,9 @@ Try and complete the [quick fire checklist](#quick-fire-checklist) below to see 
 2. [Page Structure and Semantic HTML](2-page-structure/page-structure.md)
 3. [ARIA attributes](3-aria/aria.md)
 4. [Visual Content](4-visual-content/visual-content.md)
+    - [Introduction](4-visual-content/visual-content.md#introduction)
+    - [Images](4-visual-content/visual-content.md#images)
+    - [Videos](4-visual-content/visual-content.md#videos)
 5. [Keyboard Only](5-keyboard-only/keyboard-only.md)
 6. [Forms](6-forms/forms.md)
 7. [Tables](7-tables/tables.md)
@@ -41,9 +44,9 @@ Try and complete the [quick fire checklist](#quick-fire-checklist) below to see 
 
 ---
 
--   [ ] Do all of your pages have unique and descriptive < title > tags?
--   [ ] Is there only one < h1 > heading present on each page?
--   [ ] Are the Heading tags in a logical order matching the structure?
+-   [ ] Do all of your pages have unique and descriptive `title` tags?
+-   [ ] Is there only one `h1` heading present on each page?
+-   [ ] Are the `h` tags in a logical order matching the structure?
 -   [ ] Is semantic HTML used where possible?  
          **If no, read through the [page-structure](2-page-structure/page-structure.md) section.**
 
@@ -70,7 +73,7 @@ Try and complete the [quick fire checklist](#quick-fire-checklist) below to see 
 
 -   [ ] Do your forms use clear labels and alternative text if needed?
 -   [ ] Do your forms provide guidance to the user upon error?
--   [ ] Do all of your input fields have a purpose specified? e.g. < input type="email" >  
+-   [ ] Do all of your input fields have a purpose specified? e.g. `input type="email"`  
          **If no, read through the [forms](6-forms/forms.md) section.**
 
 ---
