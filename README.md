@@ -10,6 +10,9 @@ Try and complete the [quick fire checklist](#quick-fire-checklist) below to see 
 ## Contents:
 
 1. [Colour](1-colour/colour.md)
+    - [Introduction](1-colour/colour.md#introduction)
+    - [Use of colour](1-colour/colour.md#use-of-colour)
+    - [Contrast ratio](1-colour/colour.md#contrast-ratio)
 2. [Page Structure and Semantic HTML](2-page-structure/page-structure.md)
 3. [ARIA attributes](3-aria/aria.md)
 4. [Visual Content](4-visual-content/visual-content.md)
