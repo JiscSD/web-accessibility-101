@@ -30,11 +30,23 @@ When designing and building our web pages, we need to be concious about colour a
 
 The minimum requirement we need to adhere to has a contrast ratio of at least 4.5:1, except for the following:
 
-- Large text (24 px or bold 19px) - Must have a contrast ratio of at least 3:1.
-- Incidental - Text or images that are pure decoration or not visible to anyone.
-- Logotypes - Text that is part of a logo or brand name has no contrast requirement.
+-   Large text (24 px or bold 19px) - Must have a contrast ratio of at least 3:1.
+-   Incidental - Text or images that are pure decoration or not visible to anyone.
+-   Logotypes - Text that is part of a logo or brand name has no contrast requirement.
 
 **Note: If text and background colours are swapped, the contrast ratio remains the same**
+
+# Using more than just colour to convey instructions and information
+
+Within the designs, there should not be elements present which give instructions through colour alone.
+Here is a good example to represent this on the [webaim site](https://webaim.org/articles/contrast/#sc141).
+Instructions should be clear, and should give users of the site the details that they need.
+
+Link text is a major issue; when the underline is removed, then the link is only recognisable through colour.
+
+This is also true when conveying information through visual representations such as pie charts or graphs. Ensure clear labelling is present as well.
+
+Check for issues by viewing your website in black and white. Are there any instructions you can’t follow or is there information you can’t understand?
 
 ## Useful Tools:
 
@@ -43,3 +55,7 @@ The minimum requirement we need to adhere to has a contrast ratio of at least 4.
 This tool can be used to quickly test different combinations of colours for contrast.
 
 ![web aim contrast checker image](https://i.ibb.co/BPLqNFD/Screenshot-2021-11-08-at-11-57-20.png)
+
+## Bibliography:
+
+[WUHCAG Checklist Use of Colour](https://www.wuhcag.com/use-of-colour/)

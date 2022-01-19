@@ -1,10 +1,14 @@
 # web-accessibility-101 :sparkles:
+
 ## To support developers using React in building accessible software under WCAG 2.1 AA guidelines.
+
 In this repository you will find some information on web accessibility, split into sections and with code examples.  
-Try and complete the [quick fire checklist](#quick-fire-checklist) below to see whether there are any missing from your product. 
+Try and complete the [quick fire checklist](#quick-fire-checklist) below to see whether there are any missing from your product.
 
 ---
+
 ## Contents:
+
 1. [Colour Contrast](1-colour-contrast/README.md)
 2. [Page Structure and Semantic HTML](2-page-structure/README.md)
 3. [ARIA attributes](3-aria/README.md)
@@ -14,40 +18,49 @@ Try and complete the [quick fire checklist](#quick-fire-checklist) below to see 
 7. [Tables](7-tables/README.md)
 8. [Common Accessibility issues with Material UI component library](8-MUI/README.md)
 9. [Testing resources](9-testing-resources/README.md)
-    * [CI/CD Tools](9-testing-resources/README.md#CI/CD)
-    * [Automated Testing](9-testing-resources/README.md#Automated)
-    * [Manual Testing](9-testing-resources/README.md#Manual)
+    - [CI/CD Tools](9-testing-resources/README.md#CI/CD)
+    - [Automated Testing](9-testing-resources/README.md#Automated)
+    - [Manual Testing](9-testing-resources/README.md#Manual)
 
 ---
 
 ## Quick fire checklist:
-- [ ] Is the lang attribute set to the correct language? 
-- [ ] Does the design have accessible colours? If not, have the colours been checked? [1-colour-contrast](1-colour-contrast/README.md)
-- [ ] Is there only one H1 Heading present on each page? [2-page-structure](2-page-structure/README.md)
-- [ ] Are the Heading tags in a logical order matching the structure? [2-page-structure](2-page-structure/README.md)
-- [ ] Is semantic HTML used where possible? [2-page-structure](2-page-structure/README.md)
-- [ ] Are ARIA attributes used if semantic HTML is not possible? [3-aria](3-aria/README.md)
-- [ ] Do all images have descriptive alt text? [4-visual-content](4-visual-content/README.md)
-- [ ] Does any visual/audio content have the option to pause? [4-visual-content](4-visual-content/README.md)
-- [ ] If you have a navigation header, is a 'skip to main content' link present? [5-keyboard-only](5-keyboard-only/README.md)
-- [ ] Are interactive attributes focusable, with obvious visible styling on focus? [5-keyboard-only](5-keyboard-only/README.md)
-- [ ] Does your codebase have documentation in a README and comments where necessary?
+
+-   [ ] Is the lang attribute set to the correct language?
+-   [ ] Is the HTML valid? (You can [check with this W3 validator](https://validator.w3.org/))
+-   [ ] Does the design have accessible colours? If not, have the colours been checked? [1-colour-contrast](1-colour-contrast/README.md)
+-   [ ] Can you still navigate your site if it was in black and white? [1-colour-contrast](1-colour-contrast/README.md)
+-   [ ] Do all of your pages have unique and descriptive < title > tags? [2-page-structure](2-page-structure/README.md)
+-   [ ] Is there only one < h1 > heading present on each page? [2-page-structure](2-page-structure/README.md)
+-   [ ] Are the Heading tags in a logical order matching the structure? [2-page-structure](2-page-structure/README.md)
+-   [ ] Is semantic HTML used where possible? [2-page-structure](2-page-structure/README.md)
+-   [ ] Are ARIA attributes used if semantic HTML is not possible? [3-aria](3-aria/README.md)
+-   [ ] Do all images have descriptive alt text? [4-visual-content](4-visual-content/README.md)
+-   [ ] Does any visual/audio content have the option to pause? [4-visual-content](4-visual-content/README.md)
+-   [ ] If you have a navigation header, is a 'skip to main content' link present? [5-keyboard-only](5-keyboard-only/README.md)
+-   [ ] Are interactive attributes focusable, with obvious visible styling on focus? [5-keyboard-only](5-keyboard-only/README.md)
+-   [ ] Can you tab through your website without using your mouse? [5-keyboard-only](5-keyboard-only/README.md)
+-   [ ] Do your forms use clear labels and alternative text if needed? [6-forms](6-forms/README.md)
+-   [ ] Does your codebase have documentation in a README and comments where necessary?
 
 ---
 
-### Contributing:  
+### Contributing:
+
 Want to contribute to this repository? Please do!  
-You can do this by...  
-1. Creating an issue - if it is a minor addition or if it is a complicated accessibility issue that everyone can input into.   
-2. Opening a Pull Request - if there is a particular area you would like to add a chunk of information or some examples to.  
+You can do this by...
+
+1. Creating an issue - if it is a minor addition or if it is a complicated accessibility issue that everyone can input into.
+2. Opening a Pull Request - if there is a particular area you would like to add a chunk of information or some examples to.
 
 ---
 
 ### Bibliography/Useful Resources:
-* [WCAG Quick Reference Guide](https://www.w3.org/WAI/WCAG21/quickref/)
-* [Web Accessibility in Mind](https://webaim.org/)
-* [Google Developers Accessibility Guide](https://developers.google.com/web/fundamentals/accessibility)
-* [Mozilla Developers Accessibility Guide](https://developer.mozilla.org/en-US/docs/Web/Accessibility)
-* [React Accessibility Docs](https://reactjs.org/docs/accessibility.html)
-* [Web Accessibility for Developers (WUHCAG) Checklist](https://www.wuhcag.com/wcag-checklist/)
-* [a11y Project checklist](https://www.a11yproject.com/checklist/)
+
+-   [WCAG Quick Reference Guide](https://www.w3.org/WAI/WCAG21/quickref/)
+-   [Web Accessibility in Mind](https://webaim.org/)
+-   [Google Developers Accessibility Guide](https://developers.google.com/web/fundamentals/accessibility)
+-   [Mozilla Developers Accessibility Guide](https://developer.mozilla.org/en-US/docs/Web/Accessibility)
+-   [React Accessibility Docs](https://reactjs.org/docs/accessibility.html)
+-   [Web Accessibility for Developers (WUHCAG) Checklist](https://www.wuhcag.com/wcag-checklist/)
+-   [a11y Project checklist](https://www.a11yproject.com/checklist/)
