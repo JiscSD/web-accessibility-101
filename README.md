@@ -9,39 +9,66 @@ Try and complete the [quick fire checklist](#quick-fire-checklist) below to see 
 
 ## Contents:
 
-1. [Colour Contrast](1-colour-contrast/README.md)
-2. [Page Structure and Semantic HTML](2-page-structure/README.md)
-3. [ARIA attributes](3-aria/README.md)
-4. [Visual Content](4-visual-content/README.md)
-5. [Keyboard Only](5-keyboard-only/README.md)
-6. [Forms](6-forms/README.md)
-7. [Tables](7-tables/README.md)
-8. [Common Accessibility issues with Material UI component library](8-MUI/README.md)
-9. [Testing resources](9-testing-resources/README.md)
-    - [CI/CD Tools](9-testing-resources/README.md#CI/CD)
-    - [Automated Testing](9-testing-resources/README.md#Automated)
-    - [Manual Testing](9-testing-resources/README.md#Manual)
+1. [Colour](1-colour/colour.md)
+2. [Page Structure and Semantic HTML](2-page-structure/page-structure.md)
+3. [ARIA attributes](3-aria/aria.md)
+4. [Visual Content](4-visual-content/visual-content.md)
+5. [Keyboard Only](5-keyboard-only/keyboard-only.md)
+6. [Forms](6-forms/forms.md)
+7. [Tables](7-tables/tables.md)
+8. [Common Accessibility issues with Material UI component library](8-UI-libraries/UI-libraries.md)
+9. [Testing resources](9-testing-resources/testing-resources.md)
+    - [CI/CD Tools](9-testing-resources/testing-resources.md#CI/CD)
+    - [Automated Testing](9-testing-resources/testing-resources.md#Automated)
+    - [Manual Testing](9-testing-resources/testing-resources.md#Manual)
 
 ---
 
 ## Quick fire checklist:
 
 -   [ ] Is the lang attribute set to the correct language?
--   [ ] Is the HTML valid? (You can [check with this W3 validator](https://validator.w3.org/))
--   [ ] Does the design have accessible colours? If not, have the colours been checked? [1-colour-contrast](1-colour-contrast/README.md)
--   [ ] Can you still navigate your site if it was in black and white? [1-colour-contrast](1-colour-contrast/README.md)
--   [ ] Do all of your pages have unique and descriptive < title > tags? [2-page-structure](2-page-structure/README.md)
--   [ ] Is there only one < h1 > heading present on each page? [2-page-structure](2-page-structure/README.md)
--   [ ] Are the Heading tags in a logical order matching the structure? [2-page-structure](2-page-structure/README.md)
--   [ ] Is semantic HTML used where possible? [2-page-structure](2-page-structure/README.md)
--   [ ] Are ARIA attributes used if semantic HTML is not possible? [3-aria](3-aria/README.md)
--   [ ] Do all images have descriptive alt text? [4-visual-content](4-visual-content/README.md)
--   [ ] Does any visual/audio content have the option to pause? [4-visual-content](4-visual-content/README.md)
--   [ ] If you have a navigation header, is a 'skip to main content' link present? [5-keyboard-only](5-keyboard-only/README.md)
--   [ ] Are interactive attributes focusable, with obvious visible styling on focus? [5-keyboard-only](5-keyboard-only/README.md)
--   [ ] Can you tab through your website without using your mouse? [5-keyboard-only](5-keyboard-only/README.md)
--   [ ] Do your forms use clear labels and alternative text if needed? [6-forms](6-forms/README.md)
 -   [ ] Does your codebase have documentation in a README and comments where necessary?
+-   [ ] Is the HTML valid? (You can [check with this W3 validator](https://validator.w3.org/))
+
+---
+
+-   [ ] Does the design have accessible colours? If not, have the colours been checked?
+-   [ ] Can you still navigate your site if it was in black and white?  
+         ==If no - read through [1-colour-contrast](1-colour/colour.md)==
+
+---
+
+-   [ ] Do all of your pages have unique and descriptive < title > tags?
+-   [ ] Is there only one < h1 > heading present on each page?
+-   [ ] Are the Heading tags in a logical order matching the structure?
+-   [ ] Is semantic HTML used where possible?  
+         ==If no, read through [2-page-structure](2-page-structure/page-structure.md)==
+
+---
+
+-   [ ] Are ARIA attributes used if semantic HTML is not possible?  
+         ==If no, read through [3-aria](3-aria/aria.md)==
+
+---
+
+-   [ ] Do all images have descriptive alt text?
+-   [ ] Does any visual/audio content have the option to pause?
+-   [ ] Can you resize your website to 200% and still use it?  
+         ==If no, read through [4-visual-content](4-visual-content/visual-content.md)==
+
+---
+
+-   [ ] If you have a navigation header, is a 'skip to main content' link present?
+-   [ ] Are interactive attributes focusable, with obvious visible styling on focus?
+-   [ ] Can you tab through your website in a logical order without using your mouse?  
+         ==If no, read through [5-keyboard-only](5-keyboard-only/keyboard-only.md)==
+
+---
+
+-   [ ] Do your forms use clear labels and alternative text if needed?
+-   [ ] Do your forms provide guidance to the user upon error?
+-   [ ] Do all of your input fields have a purpose specified? e.g. < input type="email" >  
+         ==If no, read through [6-forms](6-forms/forms.md)==
 
 ---
 
