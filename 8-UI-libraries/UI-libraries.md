@@ -1,1 +1,2 @@
-Specific accessibility problems with MUI components;
+Accessibility with MUI
+Accessibility with Tailwind
