@@ -1,4 +1,6 @@
-# Accessible Rich Internet Applications (ARIA)
+# Introduction
+
+Accessible Rich Internet Applications (ARIA)
 
 ARIA attributes have been designed as a tool to make web content and applications more accessible to end users with disabilities. They provide information that can be used by assistive technology (such as screen-readers) and are often seen prefixed in HTML with `aria-` or describe a `role` for an element. In short: ARIA helps to fill any gaps that Semantic HTML doesn't fill implicitly.
 
@@ -6,39 +8,39 @@ The information assistive technologies need about the meaning and purpose of use
 
 The W3C Working Group have created [a set of authoring best practice notes](https://www.w3.org/TR/wai-aria-practices-1.1/) to help guide developers. ARIA is a pretty extensive area to explore, and something you'll use on a regular basis. In this guide we'll cover some of the key areas to be aware of.
 
---- 
+---
 
-## Types of ARIA component
+# Types of ARIA
 
 ARIA consists of three component types: **Roles, states, and properties**. States and properties ([often collectively just referred to as "attributes"](https://www.w3.org/TR/wai-aria-1.0/states_and_properties)) exist to help define roles in more detail.
 
-### Roles
+## Roles
 
 This is a static description of what an element does (so it doesn't change). For example `<a role="button">Order pizza</a>`.
 
-### States
+## States
 
 States describe the current condition of an element on the page, and can change (either with or without user interaction). Examples of states are `aria-checked` and `aria-disabled`.
 
-### Properties
+## Properties
 
 Properties describe what an element is, and are less likely to change once set. Examples of properties are `aria-label` and `aria-describedby`.
 
 ---
 
-## Principles
+# Principles
 
 Poorly implemented ARIA can be detrimental to assistive technology users. W3C specify two key principles to help developers:
 
-### **Principle 1:** A `role` is a promise that an action will take place, where it would otherwise not be obvious to a browser.
+## **Principle 1:** A `role` is a promise that an action will take place, where it would otherwise not be obvious to a browser.
 
-For example the following `div` being used as a call to action. This would not usually appear as a button.
+For example the following being used as a tab. This would not usually appear as a button to the user but it would appear as a button to screen-readers if a role of 'tab' had not been assigned.
 
 ```
 <button role="tab">Tab</button>
 ```
 
-###  **Principle 2:** ARIA attributes can both cloak and enhance information.
+## **Principle 2:** ARIA attributes can both cloak and enhance information.
 
 While ARIA attributes can improve experience for assistive technology users, incorrect attributes or values can achieve the opposite. Some examples of this in practice:
 
@@ -75,28 +77,35 @@ As you would expect from any web technology, device or software support can't be
 
 For this reason, while emulated/automated testing is beneficial at a development level, it's important to test ARIA with actual assistive technology before release.
 
-**Useful resource:** [a11support.io](https://a11ysupport.io/) allows you to search by ARIA attribute or HTML element and see support across different assistive technologies and browsers.
-
 ---
 
-## Some useful attributes
+# Examples
 
 Below are a few commonly used attributes and what they achieve. You can view a more comprehensive list [here](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques).
 
 ### [button role](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/button_role)
-> The button role is for clickable elements that trigger a response when activated by the user. Adding `role="button"` tells the screen reader the element is a button, but provides no button functionality. Use `<button>` or `<input>` with `type="button"` instead.
+
+> The button role is for clickable elements that trigger a response when activated by the user. Adding `role="button"` tells the screen reader the element is a button, but provides no button functionality. Use  
+> `<button>`
+> or  
+> `<input>` with `type="button"` instead.
+
 ```
 <div tabindex="0" role="button" aria-pressed="false">Send message</div>
 ```
 
 ### [aria-label](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-label_attribute)
-> The `aria-label` attribute is used to define a string that labels the current element. Use it in cases where a text label is not visible on the screen. If there is visible text labeling the element, use `aria-labelledby` instead. 
+
+> The `aria-label` attribute is used to define a string that labels the current element. Use it in cases where a text label is not visible on the screen. If there is visible text labelling the element, use `aria-labelledby` instead.
+
 ```
 <button aria-label="Close" onclick="myDialog.close()">X</button>
 ```
 
 ### [aria-labelledby](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-labelledby_attribute)
-> The `aria-labelledby` attribute establishes relationships between objects and their label(s), and its value should be one or more element IDs, which refer to elements that have the text needed for labeling.
+
+> The `aria-labelledby` attribute establishes relationships between objects and their label(s), and its value should be one or more element IDs, which refer to elements that have the text needed for labelling.
+
 ```
 <div role="dialog" aria-labelledby="dialogheader">
     <h2 id="dialogheader">Choose a File</h2>
@@ -105,30 +114,29 @@ Below are a few commonly used attributes and what they achieve. You can view a m
 ```
 
 ### [aria-hidden](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-hidden_attribute)
+
 > Adding `aria-hidden="true"` to an element removes that element and all of its children from the accessibility tree.
 
 This is especially useful for decorative content, or offscreen content such as modals or menus. It's worth noting that `aria-hidden="false"` however [can perform inconsistently across browsers](https://www.w3.org/TR/wai-aria-1.1/#aria-hidden).
 
 ---
 
-## Allowed attributes for HTML elements
+## Useful Tools
+
 W3C provide [a helpful table](https://www.w3.org/TR/html-aria/#docconformance) of HTML elements, their implicit ARIA semantics, and their allowed roles.
+
+[a11support.io](https://a11ysupport.io/) allows you to search by ARIA attribute or HTML element and see support across different assistive technologies and browsers.
 
 ---
 
-## Further Reading
+## Bibliography
 
-### An overview of ARIA support
-https://www.a11yproject.com/posts/2020-05-13-aria-has-perfect-support/
+[An overview of ARIA support](https://www.a11yproject.com/posts/2020-05-13-aria-has-perfect-support/)
 
-### Screen reader compatibility
-https://www.powermapper.com/tests/screen-readers/aria/
+[Screen reader compatibility](https://www.powermapper.com/tests/screen-readers/aria/)
 
-### Using ARIA: Roles, states, and properties
-https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques
+[Using ARIA: Roles, states, and properties](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques)
 
-### What the Heck is ARIA? A Beginner's Guide to ARIA for Accessibility
-https://www.lullabot.com/articles/what-heck-aria-beginners-guide-aria-accessibility
+[What the Heck is ARIA? A Beginner's Guide to ARIA for Accessibility](https://www.lullabot.com/articles/what-heck-aria-beginners-guide-aria-accessibility)
 
-### Global States and Properties
-https://www.w3.org/TR/wai-aria/#global_states 
+[Global States and Properties](https://www.w3.org/TR/wai-aria/#global_states)
