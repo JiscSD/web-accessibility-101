@@ -34,6 +34,7 @@ Try and complete the [quick fire checklist](#quick-fire-checklist) below to see 
     - [CI/CD Tools](9-testing-resources/testing-resources.md#CI/CD)
     - [Automated Testing](9-testing-resources/testing-resources.md#Automated)
     - [Manual Testing](9-testing-resources/testing-resources.md#Manual)
+    - [Lighthouse CI setup](9-testing-resources/lighthouse-ci.md)
 
 ---
 
