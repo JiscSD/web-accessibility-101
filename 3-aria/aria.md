@@ -125,7 +125,7 @@ This is especially useful for decorative content, or offscreen content such as m
 
 W3C provide [a helpful table](https://www.w3.org/TR/html-aria/#docconformance) of HTML elements, their implicit ARIA semantics, and their allowed roles.
 
-[a11support.io](https://a11ysupport.io/) allows you to search by ARIA attribute or HTML element and see support across different assistive technologies and browsers.
+[a11ysupport.io](https://a11ysupport.io/) allows you to search by ARIA attribute or HTML element and see support across different assistive technologies and browsers.
 
 ---
 
