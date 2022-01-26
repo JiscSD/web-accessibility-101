@@ -1,1 +1,0 @@
-Specific accessibility problems with MUI components;
