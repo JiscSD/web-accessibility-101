@@ -1,6 +1,7 @@
 ## CI/CD 
 - [Lighthouse CI](https://github.com/GoogleChrome/lighthouse-ci)  
-:gem: pipeline tool  
+:gem: pipeline tool   
+More information on setting Lighthouse CI up [can be found here.](lighthouse-ci.md)
 
 - [aXe Core CI](https://github.com/dequelabs/axe-core)  
 :gem: pipeline tool  
@@ -10,6 +11,9 @@
 
 ---
 ## Automated
+
+Here are five automated tools that are used frequently for accessibility testing:  
+
 - Chrome and Firefox Accessibility Inspector tab in DevTools
 
 - [Lighthouse](https://developers.google.com/web/tools/lighthouse)  
@@ -26,6 +30,8 @@ The axe Dev Tools extension, once installed, can be accessed from Chrome Dev Too
 :gem: browser extension  
    
 ---
+
+Here are some extra tools that are useful for accessibility testing:  
 
 - [ARC Toolkit](https://www.tpgi.com/arc-platform/arc-toolkit/)  
 :gem: browser extension   
@@ -52,7 +58,7 @@ The axe Dev Tools extension, once installed, can be accessed from Chrome Dev Too
 ## Manual
 
 - [SiteImprove (Paid version)](https://siteimprove.com)  
-Jisc have several websites checked by the paid for version of SiteImprove. This can flag manual issues and then provide guidance on how to fix the issues.  
+Jisc have several websites checked by the paid for version of SiteImprove. This can flag manual issues and then provide guidance on how to fix the issues. Speak to Dave Carter (Test Team Lead) if you are interested in your site being added to the SiteImprove monitoring platform. 
 
 - [WebAIM Colour Contrast Checker](https://webaim.org/resources/contrastchecker/)  
 Check the background and foreground colours on your site to make sure they pass WCAG standards. This tool also functions as a basic API.
