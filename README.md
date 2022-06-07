@@ -83,6 +83,7 @@ Try and complete the [quick fire checklist](#quick-fire-checklist) below to see 
 
 -   [ ] Do your forms use clear labels and alternative text if needed?
 -   [ ] Do your forms provide guidance to the user upon error?
+-   [ ] Are all required fields marked?
 -   [ ] Do all of your input fields have a purpose specified? e.g. `input type="email"`  
          **If no, read through the [forms](6-forms/README.md) section.**
 
