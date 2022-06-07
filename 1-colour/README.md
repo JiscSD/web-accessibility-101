@@ -8,6 +8,15 @@ There are multiple ways to define colours, ordinarily at Jisc we tend to use the
 
 ---
 
+**Contents**
+
+1. [Colour](#use-of-colour)
+2. [Contrast Ratio](#contrast-ratio)
+3. [Useful Tools](##useful-tools)
+4. [Bibliography](##bibliography)
+
+---
+
 # Use of colour
 
 WCAG 2 does not prohibit any specific colour or combination, such as green and red. What is important is that these colours pass the contrast requirement. There is an important rule that states:

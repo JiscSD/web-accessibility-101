@@ -9,32 +9,34 @@ Try and complete the [quick fire checklist](#quick-fire-checklist) below to see 
 
 ## Contents:
 
-1. [Colour](1-colour/colour.md)
-    - [Introduction](1-colour/colour.md#introduction)
-    - [Use of colour](1-colour/colour.md#use-of-colour)
-    - [Contrast ratio](1-colour/colour.md#contrast-ratio)
-2. [Page Structure and Semantic HTML](2-page-structure/page-structure.md)
-3. [ARIA attributes](3-aria/aria.md)
-    - [Introduction](3-aria/aria.md#introduction)
-    - [Types of ARIA](3-aria/aria.md#types-of-aria)
-    - [Principles](3-aria/aria.md#principles)
-    - [Examples](3-aria/aria.md#examples)
-4. [Visual Content](4-visual-content/visual-content.md)
-    - [Introduction](4-visual-content/visual-content.md#introduction)
-    - [Images](4-visual-content/visual-content.md#images)
-    - [Videos](4-visual-content/visual-content.md#videos)
-5. [Keyboard Only](5-keyboard-only/keyboard-only.md)
-    - [Introduction](5-keyboard-only/keyboard-only.md#introduction)
-    - [Tips to improve](5-keyboard-only/keyboard-only.md#tips-to-improve)
-    - [Checklist for keyboard accessibility](5-keyboard-only/keyboard-only.md#checklist-for-keyboard-accessibility)
-6. [Forms](6-forms/forms.md)
-7. [Tables](7-tables/tables.md)
-8. [Common Accessibility issues with Material UI component library](8-UI-libraries/UI-libraries.md)
-9. [Testing resources](9-testing-resources/testing-resources.md)
-    - [CI/CD Tools](9-testing-resources/testing-resources.md#CI/CD)
-    - [Automated Testing](9-testing-resources/testing-resources.md#Automated)
-    - [Manual Testing](9-testing-resources/testing-resources.md#Manual)
-    - [Lighthouse CI setup](9-testing-resources/lighthouse-ci.md)
+1. [Colour](1-colour/README.md)
+    - [Introduction](1-colour/README.md#introduction)
+    - [Use of colour](1-colour/README.md#use-of-colour)
+    - [Contrast ratio](1-colour/README.md#contrast-ratio)
+2. [Page Structure and Semantic HTML](2-page-structure/README.md)
+3. [ARIA attributes](3-aria/README.md)
+    - [Introduction](3-aria/README.md#introduction)
+    - [Types of ARIA](3-aria/README.md#types-of-aria)
+    - [Principles](3-aria/README.md#principles)
+    - [Examples](3-aria/README.md#examples)
+4. [Visual Content](4-visual-content/README.md)
+    - [Introduction](4-visual-content/README.md#introduction)
+    - [Images](4-visual-content/README.md#images)
+    - [Videos](4-visual-content/README.md#videos)
+5. [Keyboard Only](5-keyboard-only/README.md)
+    - [Introduction](5-keyboard-only/README.md#introduction)
+    - [Tips to improve](5-keyboard-only/README.md#tips-to-improve)
+    - [Checklist for keyboard accessibility](5-keyboard-only/README.md#checklist-for-keyboard-accessibility)
+6. [Forms](6-forms/README.md)
+    - [Introduction](6-forms/README.md#introduction)
+    - [Accessible forms](6-forms/README.md#accessible-forms)
+7. [Tables](7-tables/README.md)
+8. [Common Accessibility issues with Material UI component library](8-UI-libraries/README.md)
+9. [Testing resources](9-testing-resources/README.md)
+    - [CI/CD Tools](9-testing-resources/README.md#CI/CD)
+    - [Automated Testing](9-testing-resources/README.md#Automated)
+    - [Manual Testing](9-testing-resources/README.md#Manual)
+    - [Lighthouse CI setup](9-testing-resources/lighthouse-ci/README.md)
 
 ---
 
@@ -48,7 +50,7 @@ Try and complete the [quick fire checklist](#quick-fire-checklist) below to see 
 
 -   [ ] Does the design have accessible colours? If not, have the colours been checked?
 -   [ ] Can you still navigate your site if it was in black and white?  
-         **If no - read through the [colour](1-colour/colour.md) section.**
+         **If no - read through the [colour](1-colour/README.md) section.**
 
 ---
 
@@ -56,33 +58,34 @@ Try and complete the [quick fire checklist](#quick-fire-checklist) below to see 
 -   [ ] Is there only one `h1` heading present on each page?
 -   [ ] Are the `h` tags in a logical order matching the structure?
 -   [ ] Is semantic HTML used where possible?  
-         **If no, read through the [page-structure](2-page-structure/page-structure.md) section.**
+         **If no, read through the [page-structure](2-page-structure/README.md) section.**
 
 ---
 
 -   [ ] Are ARIA attributes used if semantic HTML is not possible?  
-         **If no, read through the [aria](3-aria/aria.md) section.**
+         **If no, read through the [aria](3-aria/README.md) section.**
 
 ---
 
 -   [ ] Do all images have descriptive alt text?
 -   [ ] Does any visual/audio content have the option to pause?
 -   [ ] Can you resize your website to 200% and still use it?  
-         **If no, read through the [visual-content](4-visual-content/visual-content.md) section.**
+         **If no, read through the [visual-content](4-visual-content/README.md) section.**
 
 ---
 
 -   [ ] If you have a navigation header, is a 'skip to main content' link present?
 -   [ ] Are interactive attributes focusable, with obvious visible styling on focus?
 -   [ ] Can you tab through your website in a logical order without using your mouse?  
-         **If no, read through the [keyboard-only](5-keyboard-only/keyboard-only.md) section.**
+         **If no, read through the [keyboard-only](5-keyboard-only/README.md) section.**
 
 ---
 
 -   [ ] Do your forms use clear labels and alternative text if needed?
 -   [ ] Do your forms provide guidance to the user upon error?
+-   [ ] Are all required fields marked?
 -   [ ] Do all of your input fields have a purpose specified? e.g. `input type="email"`  
-         **If no, read through the [forms](6-forms/forms.md) section.**
+         **If no, read through the [forms](6-forms/README.md) section.**
 
 ---
 

@@ -4,6 +4,14 @@ Working with media content on the web can be very difficult in general, but we h
 
 ---
 
+**Contents**
+
+1. [Images](#images)
+2. [Videos](#videos)
+3. [Bibliography](##bibliography)
+
+---
+
 # Images
 
 When working with images, whether that be a .png, .jpg, .svg, .ico and so on, you likely / it is common to simply throw in an `img` element, set the source & some back up alt text and call it a day. This approach is _generally_ ok, although there is a whole lot more we can do for the user.
@@ -158,10 +166,6 @@ There are a few guided rules when it comes to this:
     <figcaption>This is my video</figcaption>
 </figure>
 ```
-
----
-
-## Useful Tools
 
 ---
 

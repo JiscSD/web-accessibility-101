@@ -10,6 +10,16 @@ The W3C Working Group have created [a set of authoring best practice notes](http
 
 ---
 
+**Contents**
+
+1. [Types of ARIA](#types-of-aria)
+2. [Principles](#principles)
+3. [Examples](#examples)
+4. [Useful Tools](##useful-tools)
+5. [Bibliography](##bibliography)
+
+---
+
 # Types of ARIA
 
 ARIA consists of three component types: **Roles, states, and properties**. States and properties ([often collectively just referred to as "attributes"](https://www.w3.org/TR/wai-aria-1.0/states_and_properties)) exist to help define roles in more detail.
