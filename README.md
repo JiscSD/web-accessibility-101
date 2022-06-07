@@ -31,7 +31,10 @@ Try and complete the [quick fire checklist](#quick-fire-checklist) below to see 
     - [Introduction](6-forms/README.md#introduction)
     - [Accessible forms](6-forms/README.md#accessible-forms)
 7. [Tables](7-tables/README.md)
-8. [Common Accessibility issues with Material UI component library](8-UI-libraries/README.md)
+    - [Introduction](7-tables/README.md#introduction)
+    - [Best Practices](7-tables/README.md#best-practices)
+    - [Examples](7-tables/README.md#examples)
+8. [Common Accessibility issues/Examples with UI libraries](8-UI-libraries/README.md)
 9. [Testing resources](9-testing-resources/README.md)
     - [CI/CD Tools](9-testing-resources/README.md#CI/CD)
     - [Automated Testing](9-testing-resources/README.md#Automated)
@@ -86,6 +89,12 @@ Try and complete the [quick fire checklist](#quick-fire-checklist) below to see 
 -   [ ] Are all required fields marked?
 -   [ ] Do all of your input fields have a purpose specified? e.g. `input type="email"`  
          **If no, read through the [forms](6-forms/README.md) section.**
+
+---
+
+-   [ ] Does your table have headers with listed scope of 'col' or 'row'?
+-   [ ] Does your table include a Caption?  
+         **If no, read through the [tables](7-tables/README.md) section.**
 
 ---
 
