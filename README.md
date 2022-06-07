@@ -28,6 +28,8 @@ Try and complete the [quick fire checklist](#quick-fire-checklist) below to see 
     - [Tips to improve](5-keyboard-only/README.md#tips-to-improve)
     - [Checklist for keyboard accessibility](5-keyboard-only/README.md#checklist-for-keyboard-accessibility)
 6. [Forms](6-forms/README.md)
+    - [Introduction](6-forms/README.md#introduction)
+    - [Accessible forms](6-forms/README.md#accessible-forms)
 7. [Tables](7-tables/README.md)
 8. [Common Accessibility issues with Material UI component library](8-UI-libraries/README.md)
 9. [Testing resources](9-testing-resources/README.md)
