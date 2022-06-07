@@ -4,6 +4,16 @@ Forms are usually the go-to for many user interactions with a web site, includin
 Some forms can be very complex, and so making a form simple to use can be really beneficial in encouraging users to complete it correctly.  
 The ways we can make a form accessible is to use desciptive HTML elements within the form, mark any required fields, provide both visible and programmatic labels, and group form controls when needed.
 
+---
+
+**Contents**
+
+1. [Accessible forms](#accessible-forms)
+2. [Things to remember](##things-to-remember)
+3. [Bibliography](##bibliography)
+
+---
+
 # Accessible forms
 
 ## Use Native HTML

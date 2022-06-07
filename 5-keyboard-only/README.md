@@ -1,5 +1,16 @@
 # Introduction
 
+---
+
+**Contents**
+
+1. [Tips to improve](#tips-to-improve)
+2. [Checklist for keyboard accessibility](#checklist-for-keyboard-accessibility)
+3. [Useful tools](##useful-tools)
+4. [Bibliography](##bibliography)
+
+---
+
 ## Typical Users
 
 When thinking about keyboard navigation, keep in mind the different types of users who require this feature most:

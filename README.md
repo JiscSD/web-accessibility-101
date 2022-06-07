@@ -9,7 +9,7 @@ Try and complete the [quick fire checklist](#quick-fire-checklist) below to see 
 
 ## Contents:
 
-1. [Colour](1-colour/colour.md)
+1. [Colour](1-colour/README.md)
     - [Introduction](1-colour/README.md#introduction)
     - [Use of colour](1-colour/README.md#use-of-colour)
     - [Contrast ratio](1-colour/README.md#contrast-ratio)
