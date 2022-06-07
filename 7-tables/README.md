@@ -63,6 +63,9 @@ This table has row headers rather than column headers.
 
 ```html
 <table>
+    <caption>
+        Event Calendar
+    </caption>
     <tr>
         <th scope="row">Date</th>
         <td>12 February</td>
