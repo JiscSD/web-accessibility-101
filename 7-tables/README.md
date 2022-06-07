@@ -89,7 +89,7 @@ This table has row headers rather than column headers.
 
 ## Useful Tools
 
--   Here is a checklist for accessible tables by [Deque University](https://dequeuniversity.com/checklists/web/tables)
+-   Here is a [checklist for accessible tables](https://dequeuniversity.com/checklists/web/tables) by Deque University.
 
 ---
 
